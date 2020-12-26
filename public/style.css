@@ -1,0 +1,363 @@
+html, body, #app{
+    background-color:#f4f9f6;
+    width:100%;
+    margin:0;
+    font-family: 'Inter', sans-serif !important;
+}
+
+main{
+    min-width:340px;
+}
+
+*{
+    user-select: none;
+    outline: 0 !important;
+}
+
+@media (min-width: 450px) {
+    .kastContainer{
+        min-height:180px !important;
+    }
+    .footerBar > li{
+        display:inline-block;
+        padding-left:5px;
+        padding-right:5px;
+    }
+    .modal-content, .modal-body{
+        width:370px !important;
+        min-height:500px;
+        max-height:500px;
+    }
+    .indreModalContainer{
+        min-width:350px;
+        padding:10px;
+    }
+    .navbar-nav{
+        width:400px;
+    }
+    .nav-link{
+        font-size:16px !important;
+    }
+}
+
+@media (max-width:560px){
+    .navbar-expand-sm{
+        display:block !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .kastContainer{
+        min-height:180px !important;
+    }
+    .footerBar > li{
+        display: inline-block;
+        padding-left:5px;
+        padding-right:5px;  
+    }
+    .nav-link{
+        font-size:14px !important;
+    }
+}
+
+@media (max-width: 200px) {
+    .kastContainer{
+        min-height:350px !important;
+    }
+    .footerBar > li{
+        display: inline-block;
+        padding-left:5px;
+        padding-right:5px;
+    }
+}
+
+.footerBar > li {
+    padding-left:7px !important;
+    padding-right:7px !important;
+}
+
+nav{
+    min-height:120px !important;
+    height:120px !important;
+}
+
+li, a{
+    margin:0 !important;
+    padding:0 !important;
+}
+
+.hovedContainer{
+    min-height: calc(100vh - 120px) !important;
+}
+
+.footerBar > li{
+    color:white;
+    list-style-type: none;
+}
+
+.close{
+    height:65px;
+    width:65px;
+    cursor:default !important;
+}
+
+ul{
+    margin:0 auto;
+    text-align:center;
+    padding:0;
+}
+
+.duSkal{
+    font-size:22px !important;
+    font-weight:522 !important;
+    color: #2a722d !important;
+}
+
+.kast{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:600 !important;
+    line-height:40px;
+    letter-spacing: 0px !important;
+    vertical-align:top;
+    font-size:30px;
+    color: #2a722d !important;
+}
+
+
+.nyttKast{
+    color: white;
+    border-radius:50px;
+    background-color:#2a722d;
+    font-size:20px;
+    width:auto;
+    height:55px;
+}
+
+footer{
+    background-color:#2a722d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+footer > ul > li{
+    font-size:14px !important;
+}
+
+.seTidligereKast{
+    display:block; 
+    color: #555555 !important;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+    padding-top:50px !important;
+    padding-bottom:20px !important;
+    font-size:16px !important;
+    font-weight: 500 !important;
+}
+
+.trekant{
+    font-size:40px;
+}
+
+.linker{
+    color:#555555 !important;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.kastene{
+    color:#555555 !important;
+    text-decoration:none !important;
+}
+
+.indreModalContainer{
+    display:inline-block;
+    width:250px;
+    text-align: left;
+    min-height:250px;
+    margin:0;
+    height:390px;
+    padding-left:40px;
+    padding-right:15px;
+    overflow-y: auto;
+    margin-top:8px;
+}
+
+.indreModalContainer::first-line{
+    text-align:left !important;
+}
+
+.indreModalContainer > li{
+    color:#555555 !important;
+}
+
+.modal-body{
+    padding:0px;
+}
+
+.closeHeader{
+    font-size:20px;
+    font-weight: 750;
+    color:#5c5e5c;
+}
+
+.modal-header{
+    background-color: #c2ddc3;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+}
+
+.x{
+    width: 45px;
+    height: 45px;
+    background-color: #acb9ad;
+    border-radius: 40px;
+}
+
+.x:hover{
+    background-color: #acb4ad;
+    cursor:pointer;
+}
+
+.modal-content{
+    border-radius:30px !important;
+    border: 0px solid red;
+    width:280px;
+    min-height:500px;
+    max-height:500px;
+}
+
+.modal-title{
+    font-size:16px;
+    margin-left:-20px !important;
+}
+
+#exampleModalLongTitle{
+    text-decoration:underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset:1px;
+    font-weight:700;
+    color:#555555 !important;
+    padding-bottom:0px;
+    height: 30px;
+}
+
+#exampleModalCenter{
+    padding:0 !important;
+}
+
+.innerCloseContainer{
+}
+
+.nullstillLink{
+    color:inherit;
+    text-decoration:none;
+}
+
+.nullstillLink:hover{
+    color:inherit;
+    text-decoration:none;
+}
+
+.navbar-nav > li > a {
+    color: #2a722d !important;
+    font-weight:550;
+}
+
+.navbar-nav{
+    height:100px;
+}
+
+.navbar-specs{
+    border-bottom: 2px solid #c2ddc3;
+    padding-bottom:5px !important;
+}
+
+.navbar-specs:hover{
+    border-bottom: 2px solid #2a722d;
+}
+
+.aktivNav{
+    border-bottom:2px solid #2a722d;
+}
+
+.vildu{
+    color: #2a722d;
+    font-weight:700;
+}
+
+.gåTilbake{
+    color: #2a722d;
+    border-radius:50px;
+    background-color:#f4f9f6;
+    font-size:16px;
+    font-weight:550;
+    border:2px solid #c2ddc3 !important;
+}
+
+.nyRunde{
+    font-size:16px;
+}
+
+.nav-link{
+    width: 100px;
+}
+
+.nav-item{
+    min-width:115px !important;
+}
+
+.innstillingerKnapper{
+    transform:scale(1.5);
+}
+
+.innstillingerKnapper[type=radio]{
+    background-color:red;
+}
+/* Fra w3-schools, men modda */
+/* The container */
+.radioContainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radioContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #c2ddc3;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radioContainer:hover input ~ .checkmark {
+  background-color: #b6ceb7;
+}
+
+/* When the radio button is checked, add a blue background */
+.radioContainer input:checked ~ .checkmark {
+  background-color: #6f8470;
+}
