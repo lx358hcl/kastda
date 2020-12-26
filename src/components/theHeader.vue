@@ -18,7 +18,7 @@
                         </div>
                         <div class="modal-body text-left ml-0 mb-4">
                             <ul class="indreModalContainer mt-5 pt-0 text-left">
-                                <li class="list-group-item border-0 mb-5">
+                                <li class="list-group-item border-0 mb-4 pb-2">
                                     <label class="radioContainer">Normalt spill
                                         <input @click="store.byttInnstilling('normaltspill');" type="radio" data-name="normaltspill" v-bind:checked="store.innstillinger.kastType.normaltspill" name="radio">
                                         <span class="checkmark"></span>
