@@ -55,7 +55,7 @@
 </template>
 
 <script>
-  //Importering av innstillingene
+  //Importerer innstillingene
   import { store } from "../store/store.js";
 
   //Generer et random kast basert på valgt kasttype i innstillingene
@@ -80,28 +80,20 @@
   function nyttKast() {
     store.tidligereKast.push(store.randomKast);
     store.randomKast = genererKast();
-    console.log(store.randomKast);
     store.settSomForrigeKast(store.randomKast);
     store.oppdaterLocalStorage();
   }
   
   export default {
     setup() {
-      //Oppstart - Synkroniser localStorage m/ appens storage.
-      //Hvis ueksisterende, start ny runde
-      if(Boolean(localStorage.getItem("state")) == false){
-        console.log("first");
-        store.startNyRunde();
-      }
-      //Hvis ikke ueksisterende, synkroniser localStorage med appens storage
+      //Oppstart - Synkroniser localStorage m/ appens storage. Hvis ueksisterende, start ny runde
+      if(Boolean(localStorage.getItem("state")) == false) store.startNyRunde();
+      //Hvis den eksiterer synkroniser localStorage med appens storage
       else{
-        console.log("second");
         var state = JSON.parse(localStorage.getItem("state"));
-        console.log(state),
         store.tidligereKast = state.tidligereKast;
         store.innstillinger = state.innstillinger;
         store.forrigeKast = state.forrigeKast;
-        console.log(store);
       }
 
       //Generer kast ved oppstart basert på tidligereKast-innoldet

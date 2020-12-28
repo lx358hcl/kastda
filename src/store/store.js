@@ -82,7 +82,6 @@ var store = reactive({
         this.oppdaterLocalStorage();
     },
     byttSide(e) {
-        console.log(e);
         this.nullstillSider();
         this.components[e].state = true
     },
@@ -98,7 +97,6 @@ var store = reactive({
         this.oppdaterLocalStorage();
     },
     settSomForrigeKast(e){
-        console.log(e);
         this.forrigeKast = e;
     },
     oppdaterLocalStorage(){
