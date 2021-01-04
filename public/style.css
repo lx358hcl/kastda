@@ -101,6 +101,10 @@ li, a{
     cursor:default !important;
 }
 
+.modal-header{
+    min-height: 65px !important
+}
+
 ul{
     margin:0 auto;
     text-align:center;
@@ -210,6 +214,7 @@ footer > ul > li{
     background-color: #c2ddc3;
     border-top-left-radius:30px;
     border-top-right-radius:30px;
+    min-height:69px !important;
 }
 
 .x{
@@ -249,9 +254,6 @@ footer > ul > li{
 
 #exampleModalCenter{
     padding:0 !important;
-}
-
-.innerCloseContainer{
 }
 
 .nullstillLink{
