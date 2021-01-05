@@ -26,7 +26,7 @@
                   </svg>
                 </div>
                 <div class="d-block w-100 d-flex justify-content-center">
-                  <h4 style = "width:180px;">Du har startet en ny runde</h4>
+                  <h4 class="feedback">Du har startet en ny runde</h4>
                 </div>
               </div>
             </div>

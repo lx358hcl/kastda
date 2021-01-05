@@ -230,6 +230,11 @@ footer > ul > li{
     color:#3B4242;
 }
 
+.feedback{
+    color:#3B4242;
+    width:180px;
+}
+
 .x:hover{
     background-color: #acb4ad;
     cursor:pointer;
