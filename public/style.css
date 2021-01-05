@@ -95,12 +95,6 @@ li, a{
     list-style-type: none;
 }
 
-.close{
-    height:65px;
-    width:65px;
-    cursor:default !important;
-}
-
 .modal-header{
     min-height: 65px !important
 }
@@ -207,7 +201,7 @@ footer > ul > li{
 .closeHeader{
     font-size:20px;
     font-weight: 750;
-    color:#5c5e5c;
+    color:#3B4242;
 }
 
 .modal-header{
@@ -222,6 +216,18 @@ footer > ul > li{
     height: 45px;
     background-color: #acb9ad;
     border-radius: 40px;
+}
+
+.bi-check2{
+    color:#3B4242;
+}
+
+.close{
+    height:65px;
+    width:65px;
+    cursor:default !important;
+    opacity: 0.8;
+    color:#3B4242;
 }
 
 .x:hover{
