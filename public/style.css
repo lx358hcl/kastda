@@ -311,11 +311,19 @@ footer > ul > li{
     border-radius:50px;
     background-color:#f4f9f6;
     font-size:18px;
+    height:60px;
     font-weight:550;
     border:2px solid #c2ddc3 !important;
 }
 
 .nyRunde{
+    padding-top:5px !important;
+    padding-bottom:5px !important;
+    padding-left:30px !important;
+    padding-right:30px !important;
+    height:60px;
+    display:flex;
+    align-items: center;
     font-size:18px;
 }
 
