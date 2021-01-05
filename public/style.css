@@ -367,6 +367,8 @@ footer > ul > li{
     width: 25px;
     background-color: #c2ddc3;
     border-radius: 50%;
+    margin-top:3px;
+    margin-left:-1px;
   }
   
   /* On mouse-over, add a grey background color */
