@@ -59,15 +59,16 @@
   import { store } from "../store/store.js"
 
   function visFeedback() {
+    //Append zoomIn-classe
     setTimeout(function () {
       document.querySelector("#lukkFeedbackMelding").click();
-    }, 1500);
+    }, 1600);
     
     //Må gjøre det sånn her pga rar modal-artefakt
     setTimeout(function(){
       store.startNyRunde();
       store.byttSide('nyttKast');
-    }, 1700);
+    }, 2000);
   }
 
   export default {
