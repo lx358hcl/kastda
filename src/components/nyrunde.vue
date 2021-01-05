@@ -16,10 +16,10 @@
         </button>
           <div class="modal-dialog modal-dialog-centered d-flex justify-content-center" role="document">
             <div style="height:160px; width:300px !important; border-radius:30px;"
-              class="modal-header m-0 px-2 py-1 text-center border-0">
+              class="d-flex align-items-center justify-content-centeer modal-header m-0 px-2 py-1 text-center border-0">
               <div class="d-flex flex-column pr-2 pt-2 pb-2 w-100 innerCloseContainer align-items-center justify-content-center">
                 <div class="d-block w-100">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor"
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
                     class="bi bi-check2" viewBox="0 0 16 16">
                     <path
                       d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
@@ -56,17 +56,20 @@
 </template>
 
 <script>
-  import {
-    store
-  } from "../store/store.js"
+  import { store } from "../store/store.js"
 
   function visFeedback() {
     setTimeout(function () {
       document.querySelector("#lukkFeedbackMelding").click();
+    }, 1500);
+    
+    //Må gjøre det sånn her pga rar modal-artefakt
+    setTimeout(function(){
       store.startNyRunde();
       store.byttSide('nyttKast');
-    }, 2000);
+    }, 1700);
   }
+
   export default {
     setup() {
       return {
