@@ -303,19 +303,20 @@ footer > ul > li{
 .vildu{
     color: #2a722d;
     font-weight:700;
+    font-size:18px;
 }
 
 .gåTilbake{
     color: #2a722d;
     border-radius:50px;
     background-color:#f4f9f6;
-    font-size:16px;
+    font-size:18px;
     font-weight:550;
     border:2px solid #c2ddc3 !important;
 }
 
 .nyRunde{
-    font-size:16px;
+    font-size:18px;
 }
 
 .nav-link{
