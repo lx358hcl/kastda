@@ -8,7 +8,7 @@
         </div>
 
         <!-- Feedback modal -->
-        <div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModalTittel" aria-hidden="true">
+        <div data-keyboard="false" data-backdrop="static" class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModalTittel" aria-hidden="true">
         <button id="lukkFeedbackMelding" style="display:none !important;" type="button" class="w-auto h-auto m-0 p-0 close d-flex justify-content-center align-items-center" data-dismiss="modal" aria-label="Close">
           <svg name="lukkknapp" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi x bi-x" viewBox="0 0 16 16">
             <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
