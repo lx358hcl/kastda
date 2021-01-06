@@ -1,6 +1,6 @@
 ## Kastda
 
-### Preview: https://kastda.netlify.app/
+### Preview: https://kastda.no
 
 ##### Koding: Luka Momcilovic
 ##### Design: Mats Bergmo Bjørnsletten
