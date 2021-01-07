@@ -1,4 +1,4 @@
-## Kastda
+## Kastda - Frisbeespill
 
 ### Nettsiden: [kastda.no](https://kastda.no)
 ##### Koding: Luka Momcilovic
