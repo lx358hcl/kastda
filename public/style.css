@@ -121,6 +121,8 @@ ul{
     vertical-align:top;
     font-size:30px;
     color: #2a722d !important;
+    max-width:400px;
+    width:400px;
 }
 
 

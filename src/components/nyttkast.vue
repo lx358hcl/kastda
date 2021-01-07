@@ -8,7 +8,7 @@
 
         <!-- Området hvor nytt kast dukker opp -->
         <div class="kastContainer d-flex justify-content-center">
-          <p class="kast mb-3">{{ store.randomKast }}</p><br>
+          <p class="kast mb-3 px-2">{{ store.randomKast }}</p><br>
         </div>
 
         <!-- Nytt kast knapp -->
