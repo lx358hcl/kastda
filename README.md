@@ -1,6 +1,5 @@
 ## Kastda
 
-### Preview: https://kastda.no
-
+### [kastda.no](https://kastda.no)
 ##### Koding: Luka Momcilovic
 ##### Design: Mats Bergmo Bjørnsletten
