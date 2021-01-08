@@ -10,8 +10,8 @@ main{
 }
 
 *{
-    user-select: none;
-    outline: 0 !important;
+    /* user-select: none;
+    outline: 0 !important; */
 }
 
 @media (min-width: 450px) {
@@ -125,6 +125,16 @@ ul{
     width:400px;
 }
 
+button:focus {
+    outline: 1px dotted;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 5px;
+}
 
 .nyttKast{
     color: white;
