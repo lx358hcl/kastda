@@ -13,7 +13,7 @@
 
         <!-- Nytt kast knapp -->
         <div class="nyttKastContainer d-flex justify-content-center">
-          <button @click="$event.target.focus(); nyttKast(); " style="width:165px" type="button" class="border-0 btn nyttKast btn-success" href="#" tabindex="0">
+          <button @click="nyttKast();" style="width:165px" type="button" class="border-0 btn nyttKast btn-success" href="#" tabindex="0">
             Nytt kast
           </button><br>
         </div>
