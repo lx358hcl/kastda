@@ -16,8 +16,8 @@ main{
     -ms-user-select: none;
 }
 
-button:focus {
-    outline:0;
+*:focus {
+    outline:0 !important;
 }
 
 @media (min-width: 450px) {
