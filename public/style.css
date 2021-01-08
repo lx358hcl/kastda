@@ -9,11 +9,6 @@ main{
     min-width:340px;
 }
 
-*{
-    /* user-select: none;
-    outline: 0 !important; */
-}
-
 @media (min-width: 450px) {
     .kastContainer{
         min-height:180px !important;
@@ -143,6 +138,10 @@ button:focus {
     font-size:20px;
     width:auto;
     height:55px;
+}
+
+.nyttKast:focus{
+    box-shadow: 0 0 0 0.2rem rgb(72 180 97 / 50%);
 }
 
 footer{
