@@ -142,6 +142,7 @@ footer{
     align-items: center;
     padding-top:15px;
     padding-bottom:15px;
+    font-size:14px;
 }
 
 footer > ul > li{
