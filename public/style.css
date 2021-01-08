@@ -9,6 +9,17 @@ main{
     min-width:340px;
 }
 
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+button:focus {
+    outline:0;
+}
+
 @media (min-width: 450px) {
     .kastContainer{
         min-height:180px !important;
