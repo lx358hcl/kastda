@@ -140,8 +140,8 @@ button:focus {
     height:55px;
 }
 
-.nyttKast:focus{
-    box-shadow: 0 0 0 0.2rem rgb(72 180 97 / 50%);
+.nyttKast:active{
+    transform: scale(0.98) !important;
 }
 
 footer{
