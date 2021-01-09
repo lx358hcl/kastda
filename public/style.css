@@ -17,12 +17,12 @@ main{
 }
 
 a{
-    color: white;
+    color: inherit;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: inherit;
     text-decoration: none;
 }
 
