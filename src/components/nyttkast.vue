@@ -14,7 +14,7 @@
         <!-- Nytt kast knapp -->
         <div class="nyttKastContainer d-flex justify-content-center">
           <button @click="nyttKast();" style="width:165px" type="button" class="border-0 btn nyttKast btn-success" href="#">
-            <a  style="nullstillA" href=#>Nytt kast</a>
+            <a style="nullstillA">Nytt kast</a>
           </button><br>
         </div>
 
