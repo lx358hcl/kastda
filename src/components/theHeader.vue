@@ -3,7 +3,7 @@
         <div class="container d-flex justify-content-center">
 
             <!-- Innstillinger Modal -->
-            <div class="modal fade" id="innstillingerModal" tabindex="1" role="dialog" aria-labelledby="innstillingerModalTittel" aria-hidden="true">
+            <div class="modal fade" id="innstillingerModal" role="dialog" aria-labelledby="innstillingerModalTittel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered d-flex justify-content-center" role="document">
                     <div class="modal-content">
                         <div class="modal-header m-0 px-2 py-1 text-center border-0">
