@@ -41,7 +41,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav d-flex justify-content-around">
                     <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a data-toggle="modal" data-target="#innstillingerModal" name="innstillinger" v-bind:class="[{ 'aktivNav': false },'nav-link', 'navbar-specs']" href="#">
+                        <a href="#" data-toggle="modal" data-target="#innstillingerModal" name="innstillinger" v-bind:class="[{ 'aktivNav': false },'nav-link', 'navbar-specs']">
                             Innstillinger
                         </a>
                     </li>
