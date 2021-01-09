@@ -14,13 +14,13 @@
         <!-- Nytt kast knapp -->
         <div class="nyttKastContainer d-flex justify-content-center">
           <button @click="nyttKast();" style="width:165px" type="button" class="border-0 btn nyttKast btn-success" href="#">
-            <span>Nytt kast</span>
+            <a  style="nullstillA" href=#>Nytt kast</a>
           </button><br>
         </div>
 
         <!-- Se tidligere kast element -->
         <p class="seTidligereKast active py-4">
-          <a data-toggle="modal" data-target="#tidligereKastModal" class="linker">Se tidligere kast</a>
+          <a href="#" data-toggle="modal" data-target="#tidligereKastModal" class="linker">Se tidligere kast</a>
         </p>
 
         <!-- Tidligere Kast Modal -->
