@@ -9,21 +9,20 @@ main{
     min-width:340px;
 }
 
-a {
-    color: white;;
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
-}
-
 * {
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    -ms-user-select: n+one;
+    -ms-user-select: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
-    color: white;;
+    color: white;
     text-decoration: none;
 }
 
@@ -158,7 +157,7 @@ button:focus {
     height:55px;
 }
 
-.nyttKast:active{
+button:active{
     transform: scale(0.98) !important;
 }
 
