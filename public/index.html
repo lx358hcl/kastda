@@ -36,10 +36,10 @@
 </body>
 
 <script>
-  $('#innstillingerModal').on('hidden.bs.modal', function (e) {
-     $("#innstillingerModal").blur();
- });
- alert("OK");
+  $('body').on('hidden.bs.modal', '.modal', function() {
+    $('.btn').blur();
+  }); 
+  alert("OK");
 </script>
 
 </html>
