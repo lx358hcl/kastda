@@ -2,8 +2,8 @@
     <nav class="m-0 p-0 px-3 navbar navbar-expand navbar-light d-flex justify-content-around">
         <div class="container d-flex justify-content-center">
             <!-- Innstillinger Modal -->
-            <div class="modal fade" id="innstillingerModal" tabindex="0"
-                aria-labelledby="tidligereKastModalTitle" aria-hidden="true">
+            <div class="modal fade" id="innstillingerModal" tabindex="0" aria-labelledby="tidligereKastModalTitle"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered d-flex justify-content-center" role="document">
                     <div class="modal-content">
                         <div class="modal-header m-0 px-2 py-1 text-center border-0">
@@ -23,26 +23,22 @@
                         </div>
                         <div class="modal-body text-left ml-0 mb-4">
                             <ul class="indreModalContainer mt-5 pt-1 text-left">
-                                <li class="list-group-item border-0 mb-4 pb-2">
-                                    <a href="#">
-                                        <label class="radioContainer">Normalt spill
-                                            <input @click="store.byttInnstilling('normaltspill');" type="radio"
-                                                data-name="normaltspill"
-                                                v-bind:checked="store.innstillinger.kastType.normaltspill" name="radio">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </a>
+                                <li tabindex="0" class="list-group-item border-0 mb-5 px-1">
+                                    <label class="radioContainer">Normalt spill
+                                        <input tabindex="-1" @click="store.byttInnstilling('normaltspill');" type="radio"
+                                            data-name="normaltspill"
+                                            v-bind:checked="store.innstillinger.kastType.normaltspill" name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
                                 </li>
-                                <li class="list-group-item border-0">
-                                    <a href="#">
-                                        <label class="radioContainer">Ekstra utfordringer
-                                            <input @click="store.byttInnstilling('ekstrautfordringer');" type="radio"
-                                                data-name="ekstrautfordringer"
-                                                v-bind:checked="store.innstillinger.kastType.ekstrautfordringer"
-                                                name="radio">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </a>
+                                <li tabindex="0" class="list-group-item border-0 mb-5 px-1">
+                                    <label class="radioContainer">Ekstra utfordringer
+                                        <input tabindex="-1" @click="store.byttInnstilling('ekstrautfordringer');" type="radio"
+                                            data-name="ekstrautfordringer"
+                                            v-bind:checked="store.innstillinger.kastType.ekstrautfordringer"
+                                            name="radio">
+                                        <span class="checkmark"></span>
+                                    </label>
                                 </li>
                             </ul>
                         </div>
