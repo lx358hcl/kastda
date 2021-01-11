@@ -7,8 +7,7 @@
                 <div class="modal-dialog modal-dialog-centered d-flex justify-content-center" role="document">
                     <div class="modal-content">
                         <div class="modal-header m-0 px-2 py-1 text-center border-0">
-                            <div
-                                class="d-flex pr-2 pt-2 pb-2 w-100 innerCloseContainer align-items-center justify-content-between">
+                            <div class="d-flex pr-2 pt-2 pb-2 w-100 innerCloseContainer align-items-center justify-content-between">
                                 <h4 class="m-0 p-0 ml-4 mt-1 closeHeader">Innstillinger</h4>
                                 <button type="button"
                                     class="w-auto h-auto m-0 p-0 close d-flex justify-content-center align-items-center"
@@ -24,7 +23,7 @@
                         <div class="modal-body text-left ml-0 mb-4">
                             <ul class="indreModalContainer mt-5 pt-1 text-left">
                                 <li class="list-group-item border-0 mb-5 px-1">
-                                   <a href="#" style="display:block; width:auto; height:auto;">
+                                   <a href="#" class="px-1" style="display:block; width:auto; height:auto;">
                                        <label class="radioContainer">Normalt spill
                                             <input tabindex="-1" @click="store.byttInnstilling('normaltspill');" type="radio"
                                                 data-name="normaltspill"
@@ -34,7 +33,7 @@
                                     </a>
                                 </li>
                                 <li class="list-group-item border-0 mb-5 px-1">
-                                    <a href="#" style="display:block; width:auto; height:auto;">
+                                    <a href="#" class="px-1" style="display:block; width:auto; height:auto;">
                                         <label class="radioContainer">Ekstra utfordringer
                                             <input @click="store.byttInnstilling('ekstrautfordringer');" type="radio"
                                                 data-name="ekstrautfordringer"
