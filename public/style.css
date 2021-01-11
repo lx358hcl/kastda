@@ -137,17 +137,6 @@ ul{
     width:400px;
 }
 
-button:focus {
-    outline: 1px dotted;
-    outline-color: -webkit-focus-ring-color;
-    outline-style: auto;
-    outline-width: 5px;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-color: -webkit-focus-ring-color;
-    outline-style: auto;
-    outline-width: 5px;
-}
-
 .nyttKast{
     color: white;
     border-radius:50px;
@@ -159,6 +148,10 @@ button:focus {
 
 button:active{
     transform: scale(0.98) !important;
+}
+
+.list-group-item:active{
+    outline:none;
 }
 
 footer{
