@@ -150,10 +150,6 @@ button:active{
     transform: scale(0.98) !important;
 }
 
-.list-group-item:active{
-    outline:none !important;
-}
-
 footer{
     background-color:#2a722d;
     display:flex;
