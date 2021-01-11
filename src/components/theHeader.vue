@@ -2,7 +2,7 @@
     <nav class="m-0 p-0 px-3 navbar navbar-expand navbar-light d-flex justify-content-around">
         <div class="container d-flex justify-content-center">
             <!-- Innstillinger Modal -->
-            <div class="modal fade" id="innstillingerModal" tabindex="-1" role="dialog"
+            <div class="modal fade" id="innstillingerModal" tabindex="0"
                 aria-labelledby="tidligereKastModalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered d-flex justify-content-center" role="document">
                     <div class="modal-content">
@@ -53,18 +53,18 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav d-flex justify-content-around">
                     <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a href="#" data-toggle="modal" data-target="#innstillingerModal" name="innstillinger"
+                        <a href="#" data-toggle="modal" data-target="#innstillingerModal"
                             v-bind:class="[{ 'aktivNav': false },'nav-link', 'navbar-specs']">
                             Innstillinger
                         </a>
                     </li>
                     <li class="nav-item d-flex align-items-center justify-content-center">
                         <a @click="store.byttSide('nyttKast')" href="#" class="nav-link">
-                            <img src="../assets/logo.svg" name="nyttKast" width="65" height="100" />
+                            <img src="../assets/logo.svg" alt="Kastda Logo" width="65" height="100" />
                         </a>
                     </li>
                     <li class="nav-item d-flex align-items-center justify-content-center">
-                        <a @click="store.byttSide('nyRunde')" name="nyRunde"
+                        <a @click="store.byttSide('nyRunde')"
                             v-bind:class="[{ 'aktivNav': store.erAktiv('nyRunde')},'nav-link', 'navbar-specs']"
                             href="#">
                             Ny runde

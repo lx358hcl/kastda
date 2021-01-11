@@ -36,9 +36,22 @@
 </body>
 
 <script>
+  //Blue border modal hotfix
   $('body').on('hidden.bs.modal', '.modal', function() {
     $('.nav-link, .linker').blur();
-  }); 
+  });
+  //EnterSpace-knapp funksjonalitet
+  $(document).keydown(function(e){
+    if(e.key == " " || e.key == "Enter"){
+      e.preventDefault();
+      try{
+        e.target.lastElementChild.click();
+      }
+      catch{
+        e.target.click();
+      }
+    }
+  });
 </script>
 
 </html>

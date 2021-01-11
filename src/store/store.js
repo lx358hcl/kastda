@@ -80,6 +80,7 @@ var store = reactive({
         this.nullstillInnstillinger();
         this.settKastTypeTrue(e);
         this.oppdaterLocalStorage();
+        console.log(e);
     },
     byttSide(e) {
         this.nullstillSider();
