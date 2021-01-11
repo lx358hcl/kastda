@@ -22,8 +22,8 @@
                         </div>
                         <div class="modal-body text-left ml-0 mb-4">
                             <ul class="indreModalContainer mt-5 pt-1 text-left">
-                                <li class="list-group-item border-0 mb-5 px-1">
-                                   <a href="#" class="px-1" style="display:block; width:auto; height:auto;">
+                                <li class="list-group-item border-0 mb-5">
+                                   <a href="#" class="px-1" style="display:block; width:auto; height:auto; margin-left:-5px !important;">
                                        <label class="radioContainer">Normalt spill
                                             <input tabindex="-1" @click="store.byttInnstilling('normaltspill');" type="radio"
                                                 data-name="normaltspill"
@@ -32,8 +32,8 @@
                                         </label>
                                     </a>
                                 </li>
-                                <li class="list-group-item border-0 mb-5 px-1">
-                                    <a href="#" class="px-1" style="display:block; width:auto; height:auto;">
+                                <li class="list-group-item border-0 mb-5        ">
+                                    <a href="#" class="px-1" style="display:block; width:auto; height:auto; margin-left:-5px !important;">
                                         <label class="radioContainer">Ekstra utfordringer
                                             <input @click="store.byttInnstilling('ekstrautfordringer');" type="radio"
                                                 data-name="ekstrautfordringer"
