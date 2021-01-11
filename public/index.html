@@ -25,6 +25,20 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
   </script>
   <script src="https://kit.fontawesome.com/d98dcce568.js" crossorigin="anonymous"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CB7WCW8SEY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-CB7WCW8SEY');
+  </script>
+
 </head>
 
 <body ontouchstart="">
@@ -37,19 +51,18 @@
 
 <script>
   //Blue border modal hotfix
-  $('body').on('hidden.bs.modal', '.modal', function() {
+  $('body').on('hidden.bs.modal', '.modal', function () {
     $('.nav-link, .linker').blur();
   });
   //EnterSpace-knapp funksjonalitet
-  $(document).keydown(function(e){
-    if(e.key == " " || e.key == "Enter"){
+  $(document).keydown(function (e) {
+    if (e.key == " " || e.key == "Enter") {
       e.preventDefault();
-      try{
-        if(e.target.firstChild.className == "radioContainer") e.target.lastElementChild.click();
-        else if(e.target.tagName == "BUTTON" || e.target.tagName == "A") e.target.click();
-      }
-      catch{
-        
+      try {
+        if (e.target.firstChild.className == "radioContainer") e.target.lastElementChild.click();
+        else if (e.target.tagName == "BUTTON" || e.target.tagName == "A") e.target.click();
+      } catch {
+
       }
     }
   });
