@@ -4,3 +4,6 @@
 ##### Mer info: https://www.bjornsletten.no/kastda
 ##### Koding: Luka Momcilovic
 ##### Design: Mats Bergmo Bjørnsletten
+
+## Project status:
+- Discontinued.
