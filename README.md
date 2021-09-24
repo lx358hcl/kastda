@@ -6,4 +6,4 @@
 ##### Design: Mats Bergmo Bjørnsletten
 
 ## Project status:
-- Discontinued.
+- Finished.
