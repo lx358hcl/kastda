@@ -1,8 +1,5 @@
-## Kastda - Frisbeespill
+## Kastda - Discgolf game
 
-### Nettsiden: [kastda.no](https://kastda.no)
+### Demo: [kastda.no](https://kastda.no)
 
 ![Kastda Bilde](./kastda.png)
-
-## Prosjekt status:
-- Ferdig
